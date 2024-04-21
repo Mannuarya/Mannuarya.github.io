@@ -140,7 +140,7 @@ const nav = document.querySelector(".nav"),
             var cvUrl = "ManishAryaCV.docx";
             var link = document.createElement('a');
             link.href = cvUrl;
-            link.download = 'ManishAryaCV.docx'; // Change the filename as desired
+            link.download = "ManishAryaCV.docx"; // Change the filename as desired
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
