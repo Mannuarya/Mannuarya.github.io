@@ -137,10 +137,10 @@ const nav = document.querySelector(".nav"),
         document.getElementById('downloadCV').addEventListener('click', function (event) {
             event.preventDefault(); // Prevent default link behavior
             // Replace 'path_to_your_cv_file.pdf' with the actual path to your CV file
-            var cvUrl = "resumeManish.rtf";
+            var cvUrl = "ManishAryaCV.docx";
             var link = document.createElement('a');
             link.href = cvUrl;
-            link.download = 'Manish_Arya_CV.rtf'; // Change the filename as desired
+            link.download = 'ManishAryaCV.docx'; // Change the filename as desired
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
