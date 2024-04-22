@@ -137,7 +137,7 @@ const nav = document.querySelector(".nav"),
         document.getElementById('downloadCV').addEventListener('click', function (event) {
             event.preventDefault(); // Prevent default link behavior
             // Replace 'path_to_your_cv_file.pdf' with the actual path to your CV file
-            var cvUrl = "ManishAryaCV.docx";
+            var cvUrl = "ManishAryaCV.pdf";
             var link = document.createElement('a');
             link.href = cvUrl;
             link.download = "ManishAryaCV.pdf"; // Change the filename as desired
