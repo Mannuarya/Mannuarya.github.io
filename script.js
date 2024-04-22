@@ -1,6 +1,6 @@
 // ================== typing animation ===================//
 var typed = new Typed(".typing", {
-  strings: ["", "Web Designer", "Python GUI Based System Developer", "Web Developer"],
+  strings: ["", "Web Developer", "Python GUI System Developer", "Web Designer "],
   typeSpeed: 100,
   backSpeed: 60, // Corrected capitalization
   loop: true,
